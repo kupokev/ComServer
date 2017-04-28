@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91D3FF4D-29B1-499B-8D96-AD57F10090F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B86F0C3A-4352-4962-B1C9-B8888CAA22DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{60B65186-1AD0-4603-BD4B-6792CADA464C}"
+	ProjectSection(SolutionItems) = preProject
+		lib\BouncyCastle.Crypto.dll = lib\BouncyCastle.Crypto.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxCore", "src\OnyxCore\OnyxCore.csproj", "{6C97DC8E-74BB-4911-BBB2-621449DD610A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnyxCore.CertStore", "src\OnyxCore.CertStore\OnyxCore.CertStore.csproj", "{062A6A71-5C88-45B9-AEC6-29425A96482D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C97DC8E-74BB-4911-BBB2-621449DD610A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C97DC8E-74BB-4911-BBB2-621449DD610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C97DC8E-74BB-4911-BBB2-621449DD610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C97DC8E-74BB-4911-BBB2-621449DD610A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062A6A71-5C88-45B9-AEC6-29425A96482D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062A6A71-5C88-45B9-AEC6-29425A96482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062A6A71-5C88-45B9-AEC6-29425A96482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062A6A71-5C88-45B9-AEC6-29425A96482D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C97DC8E-74BB-4911-BBB2-621449DD610A} = {91D3FF4D-29B1-499B-8D96-AD57F10090F5}
+		{062A6A71-5C88-45B9-AEC6-29425A96482D} = {91D3FF4D-29B1-499B-8D96-AD57F10090F5}
+	EndGlobalSection
+EndGlobal
